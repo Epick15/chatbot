@@ -1,2 +1,41 @@
 node_modules
 public/imagenes/*
+# Entorno
+.env
+.env.*
+
+# Dependencias de Composer y NPM
+/vendor/
+/node_modules/
+
+/package-lock.json
+/yarn.lock
+
+# Archivos de compilación
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+
+# IDE y editor
+.idea/
+/.vscode/
+/*.sublime-project
+/*.sublime-workspace
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Laravel Test Coverage
+coverage/
+
+# Otros temporales
+*.log
+*.bak
+*.tmp
+*.swp
